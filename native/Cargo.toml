@@ -26,3 +26,12 @@ assets = [
     ["target/release/radical-native", "/usr/bin/", "755"],
     ["target/release/radical.native.json", "/usr/lib/mozilla/native-messaging-hosts/", "644"]
 ]
+
+[package.metadata.rpm]
+package = "radical-native"
+
+[package.metadata.rpm.cargo]
+buildflags = ["--release"]
+
+[package.metadata.rpm.targets]
+radical-native = { path = "/usr/bin/radical-native" }
