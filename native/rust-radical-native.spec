@@ -5,7 +5,7 @@
 %global crate radical-native
 
 Name:           rust-%{crate}
-Version:        0.1beta15
+Version:        v0.1beta15
 Release:        1%{?dist}
 Summary:        Extending Riot Web with native capabilities
 
