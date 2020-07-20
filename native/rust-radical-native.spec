@@ -5,14 +5,14 @@
 %global crate radical-native
 
 Name:           rust-%{crate}
-Version:        v0.1beta15
+Version:        0.1beta15
 Release:        1%{?dist}
 Summary:        Extending Riot Web with native capabilities
 
 # Upstream license specification: MIT
 License:        MIT
 URL:            https://github.com/stoically/radical-native
-Source:         https://github.com/stoically/radical-native/archive/%{version}/%{crate}-%{version}.tar.gz
+Source:         https://github.com/stoically/radical-native/archive/v%{version}/%{crate}-%{version}.tar.gz
 
 ExclusiveArch:  %{rust_arches}
 
