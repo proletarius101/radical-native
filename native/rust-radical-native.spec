@@ -3,11 +3,11 @@
 %global __cargo_skip_build 0
 %global crate radical-native
 %global         forgeurl        https://github.com/stoically/%{crate}
+Version:        0.1beta15
 
 %forgemeta -i
 
 Name:           rust-%{crate}
-Version:        0.1beta15
 Release:        1%{?dist}
 Summary:        Extending Riot Web with native capabilities
 
