@@ -35,7 +35,7 @@ Summary:        %{summary}
 %{buildroot}%{_docdir}/doc/radical-native/copyright
 
 %prep
-%autosetup -n %{version_no_tilde} -p1
+%autosetup -n %{crate}-%{version_no_tilde} -p1
 %cargo_prep
 
 %generate_buildrequires
