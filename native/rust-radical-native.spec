@@ -2,7 +2,7 @@
 %bcond_without check
 %global __cargo_skip_build 0
 %global crate radical-native
-%global         forgeurl        https://github.com/%{stoically}/%{crate}
+%global         forgeurl        https://github.com/stoically/%{crate}
 
 %forgemeta -i
 
