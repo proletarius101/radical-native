@@ -12,7 +12,7 @@ Summary:        Extending Riot Web with native capabilities
 # Upstream license specification: MIT
 License:        MIT
 URL:            https://github.com/stoically/radical-native
-Source:         https://codeload.github.com/proletarius101/radical-native/tar.gz/%{version}
+Source:         https://github.com/stoically/radical-native/archive/%{version}/%{crate}-%{version}.tar.gz
 
 ExclusiveArch:  %{rust_arches}
 
